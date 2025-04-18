@@ -3,12 +3,6 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /*Header section*/
 header {
   background-color: #1f2937;
@@ -17,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px;
+  margin-bottom: 40px;
 }
 
 .nav-links {
@@ -31,7 +25,7 @@ header {
 }
 
 .main-content {
-  margin: 20px;
+  margin: 0px;
 }
 
 #logo {
@@ -90,6 +84,15 @@ p {
   border-radius: 4px;
 }
 
+.illustration-box-text {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+}
+
 /* Quote section */
 
 .quote-section {
@@ -97,6 +100,15 @@ p {
   margin: 40px 0;
   padding: 40px;
   text-align: center;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+#quote-author {
+  text-align: end;
+  font-weight: bold;
 }
 
 /*CTA section */
@@ -112,15 +124,25 @@ p {
 .cta-contet {
   justify-content: space-around;
   text-align: center;
+  background-color: #2a85ff;
 }
 
 .cta {
   border: 2px solid white;
   justify-content: flex-start;
+  background-color: #2a85ff;
 }
 
 .cta-content-title {
   font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #2a85ff;
+}
+
+.filler {
+  width: 250px;
+  background-color: #2a85ff;
 }
 
 /* Footer section */
@@ -133,7 +155,7 @@ p {
 
 h2 {
   text-align: center;
-  margin: 20px;
+  margin: 40px;
 }
 
 h1 {
