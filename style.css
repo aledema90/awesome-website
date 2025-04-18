@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+  color: whitesmoke;
+  width: auto;
+  height: 30px;
+  padding: 12px;
+}
+
+#flex-container {
+  display: flex;
+}
+
+.header-item {
+  flex: 1;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: whitesmoke;
+  width: auto;
+  height: 200px;
+  display: flex;
+}
+footer {
+  background-color: #1f2937;
+  color: whitesmoke;
+  width: auto;
+  height: 50px;
+}
+
+#footer-text {
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-section {
+  background-color: white;
+}
+
+/* .hero h1 {
+  color: whitesmoke;
+} */
+
+.quote {
+  background-color: lightgray;
+}
+
+#quote-text {
+  font-style: italic;
+}
