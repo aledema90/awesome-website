@@ -7,43 +7,71 @@
     <title>Awesome Website</title>
   </head>
   <body>
-    <container>
-      <header id="flex-container">
-        <img class="header-item" src="" alt="Header logo " />
-        <div class="header-links">
-          <span class="header-item">link one </span>
-          <span class="header-item">link two </span>
-          <span class="header-item">link three </span>
-        </div>
-      </header>
+    <header id="header-container">
+      <div class="logo">Header logo</div>
+      <nav class="nav-links">
+        <a href="#"> Header link one</a>
+        <a href="#"> Header link two</a>
+        <a href="#"> Header link three</a>
+      </nav>
+    </header>
+
+    <main class="main-content">
       <div class="hero">
         <div class="hero-text">
           <h1>This website is awesome</h1>
-          <p>This is the subtext of the awesome text</p>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
         </div>
         <div class="hero-image">
-          <img src="" alt="Hero image" />
+          <img src="" alt="this is a placeholder for an image" />
         </div>
       </div>
+
       <div class="middle-section">
-        <h3>Some random information.</h3>
-        <div>
-          <div class="illustration-box"></div>
-          <div class="illustration-box"></div>
-          <div class="illustration-box"></div>
+        <h2>Some random information.</h2>
+        <div class="info-grid">
+          <div class="illustration-box">
+            this is some subtext under an illustration or image
+          </div>
+          <div class="illustration-box">
+            this is some subtext under an illustration or image
+          </div>
+          <div class="illustration-box">
+            this is some subtext under an illustration or image
+          </div>
         </div>
       </div>
-      <div class="quote">
-        <div id="quote-text">
-          "This is a very inspiring quote from someone famous"
+
+      <div class="quote-section">
+        <blockquote>
+          <p>
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it’s just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </p>
+          <footer>Thor, God of Thunder</footer>
+        </blockquote>
+      </div>
+
+      <div class="cta-section">
+        <div id="cta-content">
+          <p>
+             <div class="cta-content-title">Call to action! It's time! </div> Sign up for our product by clicking that
+            button right over there
+          </p>
         </div>
+        <button class="cta">Sign up</button>
       </div>
-      <div class="">
-        <div id="call-to-action">Call to action! It's time</div>
+    </main>
+
+    <footer class="footer-section">
+      <div id="footer-text">
+        <p>Copyright © The Odin Project 2021</p>
       </div>
-      <footer>
-        <div id="footer-text">Copyright The Odin Project 2000</div>
-      </footer>
-    </container>
+    </footer>
   </body>
 </html>
